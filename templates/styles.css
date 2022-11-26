@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: rgb(201,208,223);
 }
@@ -19,7 +24,29 @@ header {
     font-family: consolas;
 }
 
-#main_div {
+#main_div_text {
+    margin: 0 11px;
+    text-align: justify;
+}
+
+#main_div_frame {
+    margin-left: 15%;
+    display: flex;
+    /*justify-content: flex-start*/ 
     width: 60%;
+    height: 60%;
     background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 30px;
+    padding: 16px 20px 0 20px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 90%;
 }
