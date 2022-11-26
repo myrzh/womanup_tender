@@ -31,6 +31,12 @@ class MainWindow(QMainWindow):
         w_list = weights_text.split(', ')
         print(w_list)
         return all([i.isdigit() for i in w_list])
+        """
+        стоимость 52
+        опыт 16
+        квалификация сотрудников 16
+        портфолио 16
+        """
     
     def submit_data(self):
         name = self.name_line.text()
