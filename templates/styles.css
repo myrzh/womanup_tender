@@ -18,3 +18,8 @@ header {
     font-size: 30pt;
     font-family: consolas;
 }
+
+#main_div {
+    width: 60%;
+    background-color: white;
+}
