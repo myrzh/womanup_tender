@@ -1,4 +1,20 @@
-span {
-    font-size: 24pt;
+body {
+    background: rgb(201,208,223);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_name_text {
+    font-size: 30pt;
+    font-family: consolas;
+}
+
+#login_button {
+    border: none;
+    background-color: #78869f;
+    font-size: 30pt;
     font-family: consolas;
 }
