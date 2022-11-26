@@ -4,13 +4,18 @@
 }
 
 body {
-    background: rgb(71, 120, 224);
+    background: #C9D0DF;
 }
-
+a {
+    text-decoration: none;
+}
 p {
-    color: rebeccapurple;
-    font-size: 24pt;
     font-family: consolas;
+    font-size: 16pt;
+}
+span {
+    font-family: consolas;
+    font-size: 16pt;
 }
 
 #header {
@@ -27,12 +32,14 @@ p {
 
 #login_button {
     border: none;
-    background-color: #78869f;
+    background-color: #C9D0DF;
     font-size: 30pt;
-    font-family: consolas;
+    margin-right: 20px;
 }
 
 #main_div_text {
+    font-size: 18pt;
+    padding: 0 0 0.5rem 0;
     margin: 0 11px;
     text-align: justify;
 }
@@ -48,18 +55,62 @@ p {
 
 #footer {
     display: flex;
-    justify-content: center;
-    max-width: 100%;
-    margin-top: 30px;
-    padding: 2 rem 1 rem;
+    padding: 1rem 1rem;
     background-color: #343434;
-    position: absolute;
-    bottom: 0;
     box-sizing: border-box;
-    height: 3.5rem;
     width: 100%;
 }
 
 #footer_inside {
+    color: white
     
+}
+
+#footer_inside_halal {
+    padding: 0 0 1rem 0;
+
+}
+
+.gl_txt{
+    font-size: 24pt;
+    font-weight: bolder;
+    padding: 0 0 0.5rem 0;
+}
+
+.que_txt{
+    font-size: 20pt;
+    font-style: italic;
+    padding: 0 0 0.5rem 0;
+}
+
+.nr_txt{
+    padding: 0 0 1rem 0;
+}
+
+#big{
+    font-size: 44pt;
+}
+
+#kostil{
+    padding: 0 0 8% 0;
+    color: white;
+}
+
+.icon.icon-github-mark-small {
+    -webkit-mask-image: url(https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg);
+    mask-image: url(https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg);
+}
+
+.visually-hidden {
+    clip: rect(1px,1px,1px,1px)!important;
+    border: 0!important;
+    -webkit-clip-path: inset(50%)!important;
+    clip-path: inset(50%)!important;
+    height: 1px!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    white-space: nowrap!important;
+    width: 1px!important;
 }
