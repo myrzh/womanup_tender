@@ -47,6 +47,7 @@ header {
     background-color: grey;
     position: absolute;
     bottom: 0;
-    height: 2.5rem;
-    width: 90%;
+    box-sizing: border-box;
+    height: 3.5rem;
+    width: 100%;
 }
