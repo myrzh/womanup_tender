@@ -4,10 +4,18 @@
 }
 
 body {
-    background: rgb(201,208,223);
+    background: rgb(71, 120, 224);
 }
 
-header {
+p {
+    color: rebeccapurple;
+    font-size: 24pt;
+    font-family: consolas;
+}
+
+#header {
+    margin: 0 2rem;
+    border-bottom: 2px solid #858585;
     display: flex;
     justify-content: space-between;
 }
@@ -38,16 +46,20 @@ header {
     background-color: white;
 }
 
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     max-width: 100%;
     margin-top: 30px;
-    padding: 16px 20px 0 20px;
-    background-color: grey;
+    padding: 2 rem 1 rem;
+    background-color: #343434;
     position: absolute;
     bottom: 0;
     box-sizing: border-box;
     height: 3.5rem;
     width: 100%;
+}
+
+#footer_inside {
+    
 }
