@@ -91,9 +91,14 @@ span {
     font-size: 44pt;
 }
 
-#kostil{
+#kostil1{
     font-size: 1pt;
-    padding: 0 0 8% 0;
+    padding: 0 0 10% 0;
+    color: white;
+}
+#kostil2{
+    font-size: 1pt;
+    padding: 0 0 54rem 0;
     color: white;
 }
 
