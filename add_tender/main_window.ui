@@ -47,7 +47,7 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLabel" name="description_line">
+       <widget class="QLabel" name="label_4">
         <property name="text">
          <string>Описание</string>
         </property>
@@ -57,12 +57,12 @@
        </widget>
       </item>
       <item>
-       <widget class="QTextEdit" name="textEdit"/>
+       <widget class="QTextEdit" name="description_line"/>
       </item>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_4">
         <item>
-         <widget class="QLabel" name="short_description_line">
+         <widget class="QLabel" name="label_3">
           <property name="text">
            <string>Короткое описание</string>
           </property>
@@ -72,7 +72,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2"/>
+         <widget class="QLineEdit" name="short_description_line"/>
         </item>
        </layout>
       </item>
@@ -89,14 +89,14 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_3"/>
+         <widget class="QLineEdit" name="exp_date_line"/>
         </item>
        </layout>
       </item>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_6">
         <item>
-         <widget class="QLabel" name="weights_line">
+         <widget class="QLabel" name="label_2">
           <property name="text">
            <string>Веса (через запятую c пробелом)</string>
           </property>
@@ -106,7 +106,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_4"/>
+         <widget class="QLineEdit" name="weights_line"/>
         </item>
        </layout>
       </item>
