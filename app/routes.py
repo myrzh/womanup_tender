@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 import sqlite3
+from werkzeug.security import generate_password_hash, check_password_hash
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired
 from flask import render_template, flash, redirect, request
 from app import app
-con = sqlite3.connect("data/tenders_db.sqlite")
+con = sqlite3.connect("data/tenders_db.db")
+md = con.mofr
 cur = con.cursor()
-result = cur.execute("""SELECT * FROM experts
+result = cur.execute("""SELECT * FROM experts_table
             WHERE is_super = 1""").fetchall()
 print(result)
 
